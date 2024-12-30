@@ -9,15 +9,13 @@
 <header id="header"
         class="h-screen bg-cover bg-center bg-no-repeat relative flex justify-between items-start flex-col px-16 py-4"
         style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('@assets/images/hero-bg.jpg');">
-    <nav>
-        <div class="max-w-6xl mx-auto">
-            <div class="flex justify-between items-center h-16">
-                <div class="flex-shrink-0 mr-48">
-                    <div class="flex items-center">
-                        <span class="text-xl font-bold text-white">Luxury Hotel</span>
-                    </div>
+    <nav class="w-full">
+        <div class="max-w-6xl">
+            <div class="flex items-center h-16 w-full">
+                <div class="flex-shrink-0" id="logo">
+                        <span class="text-2xl font-bold text-white">Luxury Hotel</span>
                 </div>
-                <div class="hidden md:flex space-x-8">
+                <div class="hidden md:flex space-x-8 ml-12 justify-between" style="flex-basis: 75%">
                     <a href="#"
                        class="text-white font-semibold hover:text-gray-700 px-3 py-2 transition duration-150">Rooms
                         & Suites</a>
@@ -57,12 +55,12 @@
         </div>
     </nav>
     <div>
-        <h1 class="text-white text-5xl">
+        <h1 class="text-white text-7xl tracking-wide leading-normal" id="title">
             Money can't buy you class, but<br>it can buy you a vacation.
         </h1>
-        <p class="text-white mt-8">Check in to the iconic hotels and resorts featured on The Real Housewives.</p>
+        <p class="text-white mt-6 text-3xl tracking-normal">Check in to the iconic hotels and resorts featured on The Real Housewives.</p>
     </div>
-    <div class="mb-24 w-full h-24 bg-white rounded-full opacity-75 flex justify-between items-center px-8 py-4">
+    <div class="mb-24 w-full h-24 bg-gray-300 rounded-full opacity-55 flex justify-between items-center px-8 py-4 border-2 border-white">
         <div>
             <label class="text-sm font-semibold">Check in</label>
             <p class="text-sm">Select dates</p>

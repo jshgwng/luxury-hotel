@@ -2,9 +2,10 @@
   "name": "luxury-hotel",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "set \\\"VITE_CJS_TRACE=true\\\" && vite build",
     "preview": "vite preview"
   },
   "keywords": [],

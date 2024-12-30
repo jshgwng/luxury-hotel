@@ -1,9 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.cdnfonts.com/css/recoleta');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-* {
-    font-family: 'Montserrat', sans-serif;
+html,body{
+    font-family: "Figtree", serif;
+}
+#logo {
+    font-family: 'Recoleta', sans-serif;
+    font-style: oblique;
+}
+
+#title {
+    font-family: 'Recoleta', sans-serif;
 }
